@@ -1,0 +1,635 @@
+/*Gobal CSS Start*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+.col-1
+{
+    width: 8.33%;
+    float: left;
+}
+.col-2
+{
+    width: 16.67%;
+    float: left;
+}
+.col-3
+{
+    width: 25%;
+    float: left;
+   
+}
+.col-4
+{
+    width: 33.33%;
+    float: left;
+}
+.col-5
+{
+    width: 41.67%;
+    float: left;
+}
+.col-6
+{
+    width: 50%;
+    float: left;
+}
+.col-7
+{
+    width: 58.3%;
+    float: left;
+}
+.col-8
+{
+    width: 66.67%;
+    float: left;
+}
+.col-9
+{
+    width: 75%;
+    float: left;
+}
+.col-10
+{
+    width: 83.33%;
+    float: left;
+}
+.col-11
+{
+    width: 91.67%;
+    float: left;
+}
+.col-12
+{
+    width: 100%;
+    float: left;
+}
+.row{
+    width: 100%;
+}
+.text-center
+{
+    text-align: center;
+}
+section{
+    float: left;
+    width: 100%;
+    padding:80px 0;
+}
+
+
+
+.highlight-char{
+    text-transform: uppercase;
+   color: #756aff;
+
+}
+
+/*Gobal CSS End*/
+/*Banner CSS Start*/
+.banner{
+    background: url(../image/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner .logo{
+    margin-top: 25px;
+    width: 35%;
+}
+.banner .navbar{
+    float: right;
+    padding: 20px;
+}
+.banner .navbar .nav-manu{
+    list-style: none;
+    padding: 20px 0;
+}
+.banner .navbar .nav-manu .nav-item{
+    display: inline;
+}
+.banner .navbar .nav-manu .nav-item:hover{
+   backgroun: #fff;
+   font-weight: 500;
+       transition: all 0.2s ease-in-out;
+}
+
+
+.banner .hero-area{
+    margin-top: 60px;
+}
+.banner .navbar .nav-manu .nav-item .nav-link{
+    padding: 10px;
+    color: #d6d6d6;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+}
+.banner .navbar .nav-manu .nav-item .nav-link:active{
+    #background:#f7f7f7; 
+}
+.banner .navbar .nav-manu .nav-item .nav-link:hover{
+    color: #f7f7f7 !important;
+     transition: all 0.5s linear;
+     font-weight: bold;
+}
+.banner .navbar .nav-manu .nav-item .nav-link-btn{
+    text-decoration: none;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    border: 1px solid #f7f7f7;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.banner .navbar .nav-manu .nav-item .nav-link-btn:hover{
+   background: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    border-radius: 0;
+    font-weight: 600;
+    color: #4c61fd !important;
+    transition: all 0.2s linear;
+}
+.banner .hero-area{
+    padding: 25px 0;
+}
+.banner .hero-area h1{
+    text-transform: uppercase;
+    color: #f7f7f7;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 34px;
+    padding-right: 120px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.banner .hero-area p{
+    color: #f7f7f7;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.banner .hero-area .btn{
+    text-decoration: none;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+    border: 1px solid #f7f7f7;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.banner .hero-area .btn-cta{
+    color: #756aff ;
+    background: #f7f7f7;
+}
+.banner .hero-area .btn-ghost{}
+.banner .hero-area .btn-cta:hover{
+    color: #2e21ea;
+    font-weight: 700;
+    box-shadow: -5px -5px 7px 3px #1285ce;
+    transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+}
+.banner .hero-area .btn-ghost:hover{
+    background: #f7f7f7;
+    transition: .5s ease-in-out;
+    color: #574df1;
+    font-weight: 700;
+    box-shadow: -5px -5px 7px 3px #1a;
+}
+.banner .banner-bg-img{
+    width: 97%;
+}
+/*Header  css end*/
+/*services css start*/
+.service{
+    background: #ffffff;
+    /* height: 710px; */
+}
+.service h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 20px;
+}
+.service p{
+    font-size: 20px;
+    color: #3f3f3f;
+    padding: 0 142px;
+    margin-bottom: 60px;
+}
+.service .service-area{}
+.service .service-area .service-item{
+    margin: 10px;
+    box-shadow: -1px 2px 7px -7px #45596b;
+}
+.service .service-area .service-item img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+.service .service-area .service-item .service-item-h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.service .service-area .service-item .service-item-p{
+    font-size: 14px;
+    margin-bottom: 16px;
+    display: block;
+    padding: 0 45px;
+}
+.service .service-area .service-item span{
+    display: block;
+    padding-bottom: 16px;
+}
+.lead{
+    background: url(../image/Slider-Photo-2.png);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+.lead .lead-area{
+    float: right;
+    width: 45%;
+}
+.lead .lead-area h2{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.lead .lead-area p{
+    margin-bottom: 20px;
+}
+.lead .lead-area .baton{
+    margin-top: 38px;
+}
+.lead .lead-area .btn-cta{
+    color: #f7f7f7;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 11px 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #19a5fc 20%,#5d4cfd 103%, transparent);
+}
+.lead .lead-area .btn-cta:hover
+{
+    color: #f7f7f7 !important;
+     transition: all 0.2s linear;
+     font-weight: bold;
+
+}
+}
+/*services css end*/
+/*project css Start*/
+.project{
+    background: url(../image/footer_map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: center;
+}
+.project h2{
+    font-size: 35px;
+    margin-bottom: 65px;
+}
+.project .project-area{
+    /* background: #f6fbff; */
+    padding: 0 15px;
+}
+.project .project-area p{
+    font-size: 20px;
+    color: #3f3f3f;
+    padding-bottom: 20px;
+}
+.project .project-area .number{
+    text-align: center;
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    padding-top: 15px;
+}
+.project .project-area:hover{
+    background: #f6fbff;
+     padding: 0 15px;
+    box-shadow: 0px 5px 0px 0px #f5f5f5;
+    transition: all 0.3s ease-in-out;
+}
+/*project css end*/
+/*Portfolio CSS start*/
+.portfolio{}
+.portfolio h2{
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.portfolio p{
+    padding: 0 20%;
+    margin-bottom: 25px;
+}
+.portfolio .portfolio-nav{
+    margin-bottom: 50px;
+}
+.portfolio .portfolio-nav .portfolio-manu{
+    list-style: none;
+    border: 1px solid #756aff;
+    width: 58%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.portfolio .portfolio-nav .portfolio-manu .portfolio-item{
+    float: left;
+    padding: 11px 30px;
+    box-sizing: border-box;
+}
+.portfolio .portfolio-nav .portfolio-manu .portfolio-item:hover{
+    background-color: #756aff;
+    border-radius: 50px;
+    color: #fff6;
+}
+.portfolio .portfolio-nav .portfolio-manu .portfolio-item .portfolio-link{
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #000;
+}
+.portfolio .portfolio-nav .portfolio-manu .portfolio-item .portfolio-link:hover{
+     color: #fff;
+}
+.portfolio .hero-box{
+    margin: 10px;
+    position: relative;
+}
+
+ .hero-box .portfolio-img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio .hero-box p{
+    position: absolute;
+    top: 80%;
+    text-transform: uppercase;
+       color: #fff;
+}
+.portfolio .box-hover{
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    top: 0px;
+    left: 0px;
+    background: #1e91cd;
+     opacity: 0; 
+    transition: 0.3s;
+}
+.portfolio .box-hover:hover{
+    opacity: 0.7;
+}
+.maximum{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background: #fff6;
+    border-radius: 50%;
+}
+.add{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #fff6;
+}
+
+
+/*Portfolio CSS End*/
+/* Work CSS Start */
+.work{
+    background: url(../image/Background.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.work h2{
+    color: #f7f7f7;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.work p{
+    color: #f7f7f7;
+    font-size: 20px;
+    padding: 0 80px;
+    margin-bottom: 50px;
+}
+
+.work .work-input{
+    display: inline-block;
+    border-radius: 20px;
+    background: #fff;
+    margin-left: 25%;
+}
+
+.work .work-input .work-input-control1{
+    float: left;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    border-right: 1px solid;
+}
+
+.work .work-input .work-input-control2{
+    float: left;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+}
+
+
+.work .work-input .btn-submit{
+    border-radius: 20px;
+    padding: 10px 30px;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg,#19a5fc 30%,#5b4efd 100%, transparent);
+}
+
+.work .work-input .btn-submit:hover{
+    background-image:linear-gradient(45deg, #5d4cfd 20%,#19a5fc 100%,transparent);
+    color: #f7f7f7;
+}
+
+.work .work-input ::placeholder{
+    color: #000;
+}
+/* Work CSS End */
+
+/* Client CSS Start */
+.client{}
+
+.client h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.client p{
+    
+    width: 50%;
+    color: #3f3f3f;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+.client .person{
+    margin: 10px;
+    box-shadow: -5px 5px 7px 5px #f8f8f8;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.person .person-details{
+    margin: 0;
+    display: inline;
+}
+
+.client .person img{
+    width: 100%;
+}
+
+.client .person h3{
+    margin-bottom: 5px;
+}
+
+.client .person .star{
+    margin-bottom: 5px;
+}
+
+.client .person .star .fa{
+    color: #7b99fe;
+}
+
+.client .person .client-link{
+    margin-bottom: 10px;
+}
+
+.client .person .client-link .fa{
+    color: #3f3f3f;
+}
+/* Client CSS End */
+/* Contact CSS Start */
+.contact{}
+
+.contact .contact-head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.contact .contact-head p{
+    color: #3f3f3f;
+    padding: 0 280px;
+    margin-bottom: 30px;
+}
+
+.contact .contact-hover:hover{
+    background: #eef9ff;
+    box-shadow: 0px 0px 5px 5px #f7f7f7;
+    transition: 0.3s ease-in-out;
+}
+
+.contact .contact-hover{
+    margin: 10px 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.contact .contact-hover .contact-details{}
+
+.contact form{
+}
+
+.contact form .form-control1{
+    display: inline-block;
+    width: 40%;
+    padding: 11px;
+    margin: 10px;
+    border: none;
+    background: #f7f7f7;
+}
+
+.contact form .form-control2{
+    display: block;
+    width: 89%;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background: #f7f7f7;
+}
+
+.contact form .btn-send{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 80px;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(45deg, #19a5fc 25%, #397bfd 50%,#5d4cfd 100%, transparent);
+}
+
+.contact form .btn-send:hover{
+    background: linear-gradient(45deg, #5d4cfd 25%,#397bfd 100%, transparent);
+}
+
+.contact .contact-img{
+
+width: 70%;
+
+margin-left: 85px;
+}
+/* Contact CSS End */
+
+/* Footer CSS Start */
+footer{
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    background-image: linear-gradient(to right, #505dfd 20%,#3a7bfd 60%,#0bb8fb 100%, transparent);
+}
+
+footer p{
+    color: #fff;
+    font-size: 14px;
+        text-transform: uppercase;
+}
+footer span{
+    text-transform: lowercase;
+}
+footer .fa{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+}
+footer .fa:hover{
+    border-radius: 50%;
+}
+/* Footer CSS ENd */
